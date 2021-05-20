@@ -1,0 +1,11 @@
+.pokedex-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    padding: 0px 10px;
+}
+.favorite-pokemon{
+    padding:  10px;
+    font-weight: bold;
+
+}

@@ -1,0 +1,187 @@
+.pokemon-card{
+    display: flex;
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.25);
+    border-radius: 3px;
+}
+
+
+.pokemon-imgage-container{
+ padding: 10px;
+}
+
+.pokemon-img{
+    height: 80px;
+    width: 80px;
+}
+
+.card-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.card-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pokemon-type{
+    display: flex;
+    text-align: center;
+    font: bold;
+    color: white;
+
+       &-normal {
+            background-color: #A8A878;
+            border: 1px solid #6D6D4E;
+            border-radius: 50px;
+            width: 100px;
+            height: 100px;
+        }
+        
+        &-fire {
+            background-color: #F08030;
+            border: 1px solid #9C531F;
+            border-radius: 50px;
+            width: 100px;
+            height: 100px;
+        }
+        
+        &-water {
+            background-color: #6890F0;
+            border: 1px solid #445E9C;
+            border-radius: 50px;
+            width: 100px;
+            height: 100px;
+        }
+        
+        &-electric {
+            background-color: #F8D030;
+            border: 1px solid #A1871F;
+            border-radius: 50px;
+            width: 100px;
+            height: 100px;
+        }
+        
+        &-grass {
+            background-color: #78C850;
+            border: 1px solid #4E8234;
+            border-radius: 50px;
+            width: 100px;
+            height: 100px;
+        }
+        
+        &-ice {
+            background-color: #98D8D8;
+            border: 1px solid #638D8D;
+            border-radius: 50px;
+            width: 100px;
+            height: 100px;
+        }
+        
+        &-ground {
+            background-color: #E0C068;
+            border: 1px solid #927D44;
+            border-radius: 50px;
+            width: 100px;
+            height: 100px;        }
+        
+        &-flying {
+            background-color: #A890F0;
+            border: 1px solid #6D5E9C;
+            border-radius: 10px;
+            width: 100px;
+            height: 100px;  
+        }
+        
+        &-ghost {
+            background-color: #705898;
+            border: 1px solid #493963;
+            border-radius: 50px;
+            width: 100px;
+            height: 100px;
+        }
+        
+        &-rock {
+            background-color: #B8A038;
+            border: 1px solid #786824;
+            border-radius: 50px;
+            width: 100px;
+            height: 40px;
+        }
+        
+        &-fighting {
+            background-color: #C03028;
+            border: 1px solid #7D1F1A;
+            border-radius: 50px;
+            width: 100px;
+            height: 100px;
+        }
+        
+        &-poison {
+            background-color: #A040A0;
+            border: 1px solid #682A68;
+            border-radius: 50px;
+            width: 100px;
+            height: 100px;
+        }
+        
+        &-psychic {
+            background-color: #F85888;
+            border: 1px solid #A13959;
+            border-radius: 50px;
+            width: 100px;
+            height: 100px;
+        }
+        
+        &-bug {
+            background-color: #A8B820;
+            border: 1px solid #6D7815;
+            border-radius: 50px;
+            width: 100px;
+            height: 100px;
+        }
+        
+        &-dark {
+            background-color: #705848;
+            border: 1px solid #49392F;
+            border-radius: 50px;
+            width: 100px;
+            height: 40px;
+        }
+        
+        &-steel {
+            background-color: #B8B8D0;
+            border: 1px solid #787887;
+            border-radius: 50px;
+            width: 100px;
+            height: 40px;
+        }
+        
+        &-dragon {
+            background-color: #7038F8;
+            border: 1px solid #4924A1;
+            border-radius: 50px;
+            width: 100px;
+            height: 100px;
+        }
+        &-fairy {
+            background-color: #f02c97;
+            border: 1px solid #ee03a0;
+            border-radius: 50px;
+            width: 100px;
+            height: 100px;
+        }
+
+
+}
